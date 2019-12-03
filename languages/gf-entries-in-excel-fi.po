@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Gravity Forms Entries in Excel\n"
-"POT-Creation-Date: 2019-11-18 11:05+0200\n"
-"PO-Revision-Date: 2019-11-18 12:23+0200\n"
+"POT-Creation-Date: 2019-12-03 19:15+0200\n"
+"PO-Revision-Date: 2019-12-03 19:15+0200\n"
 "Last-Translator: Doeke Norg <info@gfexcel.com>\n"
 "Language-Team: \n"
 "Language: fi\n"
@@ -36,6 +36,15 @@ msgstr "Määrä:"
 #: src/Field/ProductField.php:30
 msgid "Price: "
 msgstr "Hinta:"
+
+#. Plugin Name of the plugin/theme
+#: src/GFExcelAdmin.php:49
+msgid "Gravity Forms Entries in Excel"
+msgstr "Gravity Forms -merkinnät Exceliin"
+
+#: src/GFExcelAdmin.php:50
+msgid "Entries in Excel"
+msgstr "Lomakevastaukset Exceliin"
 
 #: src/GFExcelAdmin.php:90
 msgid "Multiple columns"
@@ -359,10 +368,6 @@ msgstr "lukematon"
 msgid "even more"
 msgstr "vielä enemmän"
 
-#. Plugin Name of the plugin/theme
-msgid "Gravity Forms Entries in Excel"
-msgstr "Gravity Forms -merkinnät Exceliin"
-
 #. Plugin URI of the plugin/theme
 msgid "https://gfexcel.com"
 msgstr "https://gfexcel.com"
@@ -382,9 +387,6 @@ msgstr "Doeke Norg"
 #. Author URI of the plugin/theme
 msgid "https://paypal.me/doekenorg"
 msgstr "https://paypal.me/doekenorg"
-
-#~ msgid "Entries in Excel"
-#~ msgstr "Lomakevastaukset Exceliin"
 
 #~ msgid "Address columns"
 #~ msgstr "Osoitteen sarakkeet"

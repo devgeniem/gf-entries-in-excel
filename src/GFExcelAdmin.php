@@ -46,8 +46,8 @@ class GFExcelAdmin extends GFAddOn
     public function __construct()
     {
         $this->_version = GFExcel::$version;
-        $this->_title = $this->translate(GFExcel::$name);
-        $this->_short_title = $this->translate(GFExcel::$shortname);
+        $this->_title = __( 'Gravity Forms Entries in Excel', 'gf-entries-in-excel' );
+        $this->_short_title = __( 'Entries in Excel', 'gf-entries-in-excel' );
         $this->_slug = GFExcel::$slug;
 
         $this->registerActions();
